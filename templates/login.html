@@ -1,0 +1,25 @@
+<!doctype html>  <!--the initial declaration of the document-->
+<html lang="en">
+  <head>    <!-- head section is where all the basic parameters of the page go; most of those are not going to be shown on the screen; they just define what’s going on under the hood -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><!-- tells the browser to display the web page at the width of the device it’s being displayed on and helps sites reformat across wide desktop displays and narrow mobile screens.-->
+    <title>login</title>   <!-- the title of the page; this is what people will see in the title bar of their browsers-->
+  </head>
+  <body>    <!--section where you’re going to be including all the content that’s meant to appear on the page-->
+    <div>
+      <form action="" method = "post">
+        <label>EMAIL/USERNAME</label><br>
+        <input name = "username" type = "email" placeholder = "write your email/username"> <br><br>
+        <label>PASSWORD</label><br>
+        <input name = "password" type = "password" placeholder = "write your password"> <br><br>
+        <input type= "submit" value ="LOGIN"><br><br>
+      </form>
+    </div>
+    <div>
+      <form action="/new">
+        <label>Are you new here?</label>
+        <input value ="Register" type = "submit">
+      </form>
+    </div>
+  </body>
+</html>
